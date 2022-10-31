@@ -1,3 +1,7 @@
+body {
+    width: 82%;
+    margin: 0 auto;
+}
 .header {
     display: flex;
     flex-direction: row;
@@ -10,9 +14,20 @@
     justify-content: space-between;
     flex-direction: row;
     flex: initial;
-    width: 900px;
+    width: 75%;
     height: 80px;
+    align-items: center;
+    padding: 8px 0;
 }
 .header-sub .logo {
     width: 150px;
+}
+.nav {
+    color: #e5e7eb;
+    font-family: roboto;
+    font-size: 18px;
+}
+.nav a {
+    text-align: center;
+    padding-right: 15px;
 }
