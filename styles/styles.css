@@ -1,5 +1,18 @@
 .header {
     display: flex;
-    background-color: #1F2937;
+    flex-direction: row;
+    justify-content: center;
+    background: #1F2937;
     height: 90px;
+}
+.header .header-sub {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex: initial;
+    width: 900px;
+    height: 80px;
+}
+.header-sub .logo {
+    width: 150px;
 }
