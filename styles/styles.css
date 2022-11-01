@@ -95,3 +95,38 @@ button {
     border: none;
     border-radius: 7px;
 }
+.two {
+    display: flex;
+    height: 450px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid black;*/
+}
+.three {
+    display: flex;
+    height: 400px;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid black;*/
+}
+.four {
+    display: flex;
+    height: 350px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid black;*/
+}
+footer {
+    display: flex;
+    height: 100px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid white;*/
+}
+html {
+    background-color: black;
+}
