@@ -2,38 +2,44 @@ body {
     width: 82%;
     margin: 0 auto;
 }
-.header {
+header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     background: #1F2937;
     height: 90px;
 }
-.header .header-sub {
+header .header-sub {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     flex: initial;
     flex-wrap: wrap;
     width: 75%;
     height: 80px;
-    align-items: center;
     padding: 8px 0;
+    border: 2px solid white;
 }
-.header-sub .logo {
-    justify-self: flex-start;
+/*this selector create a flex container for the navigation buttons*/
+.header-sub div {
+    flex: auto;
+    border: 2px solid white;
+    flex-wrap: wrap;
 }
 /*the following selecter works on the navigation links at the top bar*/
-.nav {
+.header-sub .nav {
     color: #e5e7eb;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
-    justify-self: flex-end;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    flex: initial;
+    gap: 15px;
 }
-.nav a {
-    padding-right: 15px;
-}
-.one { /*styles the main container of the section*/
+ .one { /*styles the main container of the section*/
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -47,17 +53,23 @@ body {
     justify-content: center;
     align-items: center;
     width: 75%;
-    flex: initial;
+    border: 2px solid white;
 }
 .one-main div {
+    display: flex;
+    flex-direction: row;
+    flex: initial;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     width: 50%;
     height: 300px;
+    border: 2px solid white;
 }
 .one-main .one-sub {
-    padding-left: 10px;
+    /*padding-left: 18px;*/
     padding-bottom: 45px;
-    padding-right: 20px;
-    text-align: left;
+    padding-right: 30px;
 }
 .one-sub .h2 {
     font-size: 48px;
